@@ -1,0 +1,85 @@
+.main_container {
+  position: relative;
+}
+
+.container {
+  background-color: #f4fdfe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16px;
+  gap: 24px;
+  overflow-x: hidden;
+  margin-top: 40px;
+}
+
+.back_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  position: fixed;
+  z-index: 999;
+  top: 0%;
+  width: 100vw;
+  overflow-x: hidden;
+  background-color: rgb(3, 15, 31);
+}
+
+.back {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  cursor: pointer;
+  color: white;
+  font-size: larger;
+}
+
+.item {
+  width: 50%;
+  background-color: #dbeafe;
+  display: flex;
+  gap: 24px;
+  border-radius: 4px;
+  padding: 16px;
+  z-index: 10;
+  box-shadow: 2px 2px 2px 2px gray;
+}
+
+.item img {
+  height: 150px;
+  width: 150px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-left: 2px solid gray;
+  padding-left: 16px;
+}
+
+.price_container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: auto;
+  margin-bottom: 8px;
+}
+
+.price {
+  font-size: large;
+  font-weight: 700;
+}
+
+.link {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 4px;
+  cursor: pointer;
+}
+
+.title {
+  font-size: larger;
+  color: black;
+}
